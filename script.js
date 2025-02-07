@@ -36,3 +36,19 @@ function not(){
     noButton.textContent = msg;
 
 }
+
+function send(){
+    const webhook = "https://discord.com/api/webhooks/1337417928663891988/SyQUcqIYFqEMZWPuUBE4UCBBu2k-GvDyv6LTZs-QwjfzAwKfQlbOTRPHm3awOW3mBjjM"
+    let request = new XMLHttpRequest();
+
+    request.open("POST", webhook);
+    request.setRequestHeader('Content-type', 'application/json');
+    
+    let parameters = {
+        username: "Valewntine Site",
+        avatar_url: "",
+        content: "Huzz clicked this"
+    }
+
+    request.send(JSON.stringify(parameters));
+}
