@@ -12,6 +12,7 @@ function yes(){
 
     document.getElementById("yesButton").remove();
     
+    send()
 }
 
 function not(){
