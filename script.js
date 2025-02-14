@@ -5,7 +5,7 @@ function yes(){
     document.getElementById("no-button").remove();
 
     const yesMessage = document.getElementById("question");
-    yesMessage.textContent = "See you on the 14th bbg <3";
+    yesMessage.textContent = "See you on the 14th <3";
     yesMessage.style.display = "block";
     yesMessage.style.fontStyle = "normal";
     document.getElementsByClassName("image")[0].src = "images/necohappy.gif";
