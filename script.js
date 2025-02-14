@@ -1,4 +1,4 @@
-const arr = ["Please just for once", "I really love you please", "Accept me please", "I'll be the best date of your life", "I'll buy you all the food and chocolate in the world", "Please marry me", "I'll be your sugardaddy/sugarmommy", "I'll do all your schoolwork", "We can Netflix & chill", "We can eat ramen together"]
+const arr = ["ur hair is sooo cool denn", "I really like you", "I'll be the best date of your life", "I'll buy you all the food and chocolate in the world", "Please marry me!", "I'll do all your schoolwork", "We can eat ramen together"]
 
 function yes(){
     document.getElementById("name").remove();
